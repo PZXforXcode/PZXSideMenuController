@@ -14,9 +14,10 @@ Compatible with UIKit and Storyboard
 直接将`PZXSideMenuController`文件夹放入项目
 
 🚀 Usage | 使用示例
+```
 import PZXSideMenuController
 
-/**
+
 let homeVC = ViewController()
 let leftVC = LeftViewController()
  // 1. 初始化和设置
@@ -33,6 +34,7 @@ let leftVC = LeftViewController()
  if let isOpen = PZXSideMenuController.isMenuOpen() {
      print("侧边栏状态: \(isOpen ? "打开" : "关闭")")
  }
+```
 📄 Requirements | 环境要求
 iOS 11.0+
 Swift 5+
